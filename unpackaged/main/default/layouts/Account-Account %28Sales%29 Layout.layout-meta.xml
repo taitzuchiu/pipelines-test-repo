@@ -45,7 +45,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Renamed_Conflict_Test_Field__c</field>
+                <field>Conflict_Test_Field_Electric_Boogaloo__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

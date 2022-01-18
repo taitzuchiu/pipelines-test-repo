@@ -102,7 +102,7 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Renamed_Conflict_Test_Field__c</field>
+        <field>Account.Conflict_Test_Field_Electric_Boogaloo__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
