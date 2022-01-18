@@ -41,7 +41,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Conflict_Test_Field__c</field>
+                <field>Renamed_Conflict_Test_Field__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
