@@ -1,5 +1,7 @@
 Dear {!Contact.FirstName},
 
+beep boop beep boop
+
 All of us at GenWatt are glad to have {!Account.Name} as a customer. 
 
 I would like to introduce myself as your Account Manager.  Should you have any questions, please feel free to call me at {!User.Phone} or email me at {!User.Email}. 
