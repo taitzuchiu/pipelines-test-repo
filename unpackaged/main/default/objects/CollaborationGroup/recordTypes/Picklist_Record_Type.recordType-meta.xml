@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Picklist_Record_Type</fullName>
+    <active>true</active>
+    <description>help</description>
+    <label>Picklist Record Type</label>
+</RecordType>

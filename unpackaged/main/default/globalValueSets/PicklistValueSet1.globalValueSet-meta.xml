@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Baking powder</fullName>
+        <default>false</default>
+        <label>Baking powder</label>
+    </customValue>
+    <customValue>
+        <fullName>Baking soda</fullName>
+        <default>false</default>
+        <label>Baking soda</label>
+    </customValue>
+    <customValue>
+        <fullName>Butter</fullName>
+        <default>false</default>
+        <label>Butter</label>
+    </customValue>
+    <customValue>
+        <fullName>Chocolate</fullName>
+        <default>false</default>
+        <label>Chocolate</label>
+    </customValue>
+    <customValue>
+        <fullName>Cocoa powder</fullName>
+        <default>false</default>
+        <label>Cocoa powder</label>
+    </customValue>
+    <customValue>
+        <fullName>Eggs</fullName>
+        <default>false</default>
+        <label>Eggs</label>
+    </customValue>
+    <customValue>
+        <fullName>Flour</fullName>
+        <default>false</default>
+        <label>Flour</label>
+    </customValue>
+    <customValue>
+        <fullName>Sugar</fullName>
+        <default>false</default>
+        <label>Sugar</label>
+    </customValue>
+    <customValue>
+        <fullName>Vanilla extract</fullName>
+        <default>false</default>
+        <label>Vanilla extract</label>
+    </customValue>
+    <description>Ingredients</description>
+    <masterLabel>Picklist Value Set 1</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AnotherCasePicklist__c</fullName>
+    <description>Didn&apos;t know what kind of value set I needed...</description>
+    <externalId>false</externalId>
+    <label>AnotherCasePicklist</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>George</fullName>
+                <default>false</default>
+                <label>George</label>
+            </value>
+            <value>
+                <fullName>Edmund</fullName>
+                <default>false</default>
+                <label>Edmund</label>
+            </value>
+            <value>
+                <fullName>Douglas</fullName>
+                <default>false</default>
+                <label>Douglas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
