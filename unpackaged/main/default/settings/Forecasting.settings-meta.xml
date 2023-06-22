@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ForecastingSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultToPersonalCurrency>false</defaultToPersonalCurrency>
-    <enableForecasts>false</enableForecasts>
+    <enableForecasts>true</enableForecasts>
     <forecastingCategoryMappings>
         <forecastingItemCategoryApiName>commitonly</forecastingItemCategoryApiName>
         <weightedSourceCategories>
@@ -89,7 +89,7 @@
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
-            <beginning>0</beginning>
+            <beginning>-14</beginning>
             <displaying>6</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
@@ -145,6 +145,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
             <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
@@ -229,23 +233,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8p</field>
+            <field>00N4K000002fYjd</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8q</field>
+            <field>00N4K000002fYje</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8r</field>
+            <field>00N4K000002fYjf</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8s</field>
+            <field>00N4K000002fYjg</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjh</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -261,6 +265,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
             <field>CORE.USERS.LAST_NAME</field>
@@ -282,11 +287,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N8d000006pF8p</field>
-            <field>00N8d000006pF8q</field>
-            <field>00N8d000006pF8r</field>
-            <field>00N8d000006pF8s</field>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjd</field>
+            <field>00N4K000002fYje</field>
+            <field>00N4K000002fYjf</field>
+            <field>00N4K000002fYjg</field>
+            <field>00N4K000002fYjh</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -303,7 +308,7 @@
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
-            <beginning>0</beginning>
+            <beginning>-14</beginning>
             <displaying>6</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
@@ -359,6 +364,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -443,23 +452,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8p</field>
+            <field>00N4K000002fYjd</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8q</field>
+            <field>00N4K000002fYje</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8r</field>
+            <field>00N4K000002fYjf</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8s</field>
+            <field>00N4K000002fYjg</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjh</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -475,6 +484,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -496,11 +506,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N8d000006pF8p</field>
-            <field>00N8d000006pF8q</field>
-            <field>00N8d000006pF8r</field>
-            <field>00N8d000006pF8s</field>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjd</field>
+            <field>00N4K000002fYje</field>
+            <field>00N4K000002fYjf</field>
+            <field>00N4K000002fYjg</field>
+            <field>00N4K000002fYjh</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -517,7 +527,7 @@
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
-            <beginning>0</beginning>
+            <beginning>-14</beginning>
             <displaying>6</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
@@ -573,6 +583,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -661,23 +675,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8p</field>
+            <field>00N4K000002fYjd</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8q</field>
+            <field>00N4K000002fYje</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8r</field>
+            <field>00N4K000002fYjf</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8s</field>
+            <field>00N4K000002fYjg</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjh</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -693,6 +707,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -715,11 +730,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N8d000006pF8p</field>
-            <field>00N8d000006pF8q</field>
-            <field>00N8d000006pF8r</field>
-            <field>00N8d000006pF8s</field>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjd</field>
+            <field>00N4K000002fYje</field>
+            <field>00N4K000002fYjf</field>
+            <field>00N4K000002fYjg</field>
+            <field>00N4K000002fYjh</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -736,7 +751,7 @@
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
-            <beginning>0</beginning>
+            <beginning>-14</beginning>
             <displaying>6</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
@@ -792,6 +807,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -876,23 +895,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8p</field>
+            <field>00N4K000002fYjd</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8q</field>
+            <field>00N4K000002fYje</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8r</field>
+            <field>00N4K000002fYjf</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8s</field>
+            <field>00N4K000002fYjg</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjh</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -908,6 +927,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -929,11 +949,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N8d000006pF8p</field>
-            <field>00N8d000006pF8q</field>
-            <field>00N8d000006pF8r</field>
-            <field>00N8d000006pF8s</field>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjd</field>
+            <field>00N4K000002fYje</field>
+            <field>00N4K000002fYjf</field>
+            <field>00N4K000002fYjg</field>
+            <field>00N4K000002fYjh</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -950,7 +970,7 @@
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
-            <beginning>0</beginning>
+            <beginning>-14</beginning>
             <displaying>6</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
@@ -1006,6 +1026,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1094,23 +1118,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8p</field>
+            <field>00N4K000002fYjd</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8q</field>
+            <field>00N4K000002fYje</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8r</field>
+            <field>00N4K000002fYjf</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8s</field>
+            <field>00N4K000002fYjg</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjh</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1126,6 +1150,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -1148,11 +1173,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N8d000006pF8p</field>
-            <field>00N8d000006pF8q</field>
-            <field>00N8d000006pF8r</field>
-            <field>00N8d000006pF8s</field>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjd</field>
+            <field>00N4K000002fYje</field>
+            <field>00N4K000002fYjf</field>
+            <field>00N4K000002fYjg</field>
+            <field>00N4K000002fYjh</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1169,7 +1194,7 @@
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
-            <beginning>0</beginning>
+            <beginning>-14</beginning>
             <displaying>6</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
@@ -1225,6 +1250,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1309,23 +1338,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8p</field>
+            <field>00N4K000002fYjd</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8q</field>
+            <field>00N4K000002fYje</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8r</field>
+            <field>00N4K000002fYjf</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8s</field>
+            <field>00N4K000002fYjg</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjh</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1341,6 +1370,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -1362,11 +1392,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N8d000006pF8p</field>
-            <field>00N8d000006pF8q</field>
-            <field>00N8d000006pF8r</field>
-            <field>00N8d000006pF8s</field>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjd</field>
+            <field>00N4K000002fYje</field>
+            <field>00N4K000002fYjf</field>
+            <field>00N4K000002fYjg</field>
+            <field>00N4K000002fYjh</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1383,7 +1413,7 @@
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
-            <beginning>0</beginning>
+            <beginning>-14</beginning>
             <displaying>6</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
@@ -1439,6 +1469,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1527,23 +1561,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8p</field>
+            <field>00N4K000002fYjd</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8q</field>
+            <field>00N4K000002fYje</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8r</field>
+            <field>00N4K000002fYjf</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8s</field>
+            <field>00N4K000002fYjg</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjh</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1559,6 +1593,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -1581,11 +1616,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N8d000006pF8p</field>
-            <field>00N8d000006pF8q</field>
-            <field>00N8d000006pF8r</field>
-            <field>00N8d000006pF8s</field>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjd</field>
+            <field>00N4K000002fYje</field>
+            <field>00N4K000002fYjf</field>
+            <field>00N4K000002fYjg</field>
+            <field>00N4K000002fYjh</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1602,7 +1637,7 @@
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
-            <beginning>0</beginning>
+            <beginning>-14</beginning>
             <displaying>6</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
@@ -1658,6 +1693,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1742,23 +1781,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8p</field>
+            <field>00N4K000002fYjd</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8q</field>
+            <field>00N4K000002fYje</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8r</field>
+            <field>00N4K000002fYjf</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8s</field>
+            <field>00N4K000002fYjg</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjh</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1774,6 +1813,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -1795,11 +1835,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N8d000006pF8p</field>
-            <field>00N8d000006pF8q</field>
-            <field>00N8d000006pF8r</field>
-            <field>00N8d000006pF8s</field>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjd</field>
+            <field>00N4K000002fYje</field>
+            <field>00N4K000002fYjf</field>
+            <field>00N4K000002fYjg</field>
+            <field>00N4K000002fYjh</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1816,7 +1856,7 @@
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
-            <beginning>0</beginning>
+            <beginning>-14</beginning>
             <displaying>6</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
@@ -1872,6 +1912,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1960,23 +2004,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8p</field>
+            <field>00N4K000002fYjd</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8q</field>
+            <field>00N4K000002fYje</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8r</field>
+            <field>00N4K000002fYjf</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8s</field>
+            <field>00N4K000002fYjg</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjh</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1992,6 +2036,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -2014,11 +2059,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N8d000006pF8p</field>
-            <field>00N8d000006pF8q</field>
-            <field>00N8d000006pF8r</field>
-            <field>00N8d000006pF8s</field>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjd</field>
+            <field>00N4K000002fYje</field>
+            <field>00N4K000002fYjf</field>
+            <field>00N4K000002fYjg</field>
+            <field>00N4K000002fYjh</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2035,7 +2080,7 @@
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
-            <beginning>0</beginning>
+            <beginning>-14</beginning>
             <displaying>6</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
@@ -2091,6 +2136,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -2175,23 +2224,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8p</field>
+            <field>00N4K000002fYjd</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8q</field>
+            <field>00N4K000002fYje</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8r</field>
+            <field>00N4K000002fYjf</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8s</field>
+            <field>00N4K000002fYjg</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjh</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2207,6 +2256,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -2228,11 +2278,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N8d000006pF8p</field>
-            <field>00N8d000006pF8q</field>
-            <field>00N8d000006pF8r</field>
-            <field>00N8d000006pF8s</field>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjd</field>
+            <field>00N4K000002fYje</field>
+            <field>00N4K000002fYjf</field>
+            <field>00N4K000002fYjg</field>
+            <field>00N4K000002fYjh</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2249,7 +2299,7 @@
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
-            <beginning>0</beginning>
+            <beginning>-14</beginning>
             <displaying>6</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
@@ -2305,6 +2355,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -2393,23 +2447,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8p</field>
+            <field>00N4K000002fYjd</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8q</field>
+            <field>00N4K000002fYje</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8r</field>
+            <field>00N4K000002fYjf</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8s</field>
+            <field>00N4K000002fYjg</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjh</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2425,6 +2479,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -2447,11 +2502,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N8d000006pF8p</field>
-            <field>00N8d000006pF8q</field>
-            <field>00N8d000006pF8r</field>
-            <field>00N8d000006pF8s</field>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjd</field>
+            <field>00N4K000002fYje</field>
+            <field>00N4K000002fYjf</field>
+            <field>00N4K000002fYjg</field>
+            <field>00N4K000002fYjh</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2468,7 +2523,7 @@
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
-            <beginning>0</beginning>
+            <beginning>-14</beginning>
             <displaying>6</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
@@ -2524,6 +2579,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -2608,23 +2667,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8p</field>
+            <field>00N4K000002fYjd</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8q</field>
+            <field>00N4K000002fYje</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8r</field>
+            <field>00N4K000002fYjf</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8s</field>
+            <field>00N4K000002fYjg</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjh</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2640,6 +2699,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -2661,11 +2721,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N8d000006pF8p</field>
-            <field>00N8d000006pF8q</field>
-            <field>00N8d000006pF8r</field>
-            <field>00N8d000006pF8s</field>
-            <field>00N8d000006pF8t</field>
+            <field>00N4K000002fYjd</field>
+            <field>00N4K000002fYje</field>
+            <field>00N4K000002fYjf</field>
+            <field>00N4K000002fYjg</field>
+            <field>00N4K000002fYjh</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>

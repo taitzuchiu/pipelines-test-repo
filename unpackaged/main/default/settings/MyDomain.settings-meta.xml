@@ -4,8 +4,8 @@
     <doesApiLoginRequireOrgDomain>false</doesApiLoginRequireOrgDomain>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
-    <myDomainName>gearset-3ba-dev-ed</myDomainName>
-    <myDomainSuffix>MySalesforceLimited</myDomainSuffix>
+    <myDomainName>d4k0000019nliuam-dev-ed</myDomainName>
+    <myDomainSuffix>MySalesforce</myDomainSuffix>
     <use3rdPartyCookieBlockingCompatibleHostnames>true</use3rdPartyCookieBlockingCompatibleHostnames>
     <useEdge>false</useEdge>
     <useStabilizedMyDomainHostnames>true</useStabilizedMyDomainHostnames>

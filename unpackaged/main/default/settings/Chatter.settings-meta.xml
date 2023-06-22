@@ -2,9 +2,9 @@
 <ChatterSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <allowChatterGroupArchiving>true</allowChatterGroupArchiving>
     <allowRecordsInChatterGroup>true</allowRecordsInChatterGroup>
-    <enableCaseFeedRelativeTimestamps>true</enableCaseFeedRelativeTimestamps>
+    <enableCaseFeedRelativeTimestamps>false</enableCaseFeedRelativeTimestamps>
     <enableChatter>true</enableChatter>
-    <enableChatterEmoticons>false</enableChatterEmoticons>
+    <enableChatterEmoticons>true</enableChatterEmoticons>
     <enableFeedEdit>true</enableFeedEdit>
     <enableFeedPinning>true</enableFeedPinning>
     <enableFeedsDraftPosts>true</enableFeedsDraftPosts>
@@ -12,6 +12,6 @@
     <enableInviteCsnUsers>true</enableInviteCsnUsers>
     <enableOutOfOfficeEnabledPref>false</enableOutOfOfficeEnabledPref>
     <enableRichLinkPreviewsInFeed>true</enableRichLinkPreviewsInFeed>
-    <enableTodayRecsInFeed>true</enableTodayRecsInFeed>
+    <enableTodayRecsInFeed>false</enableTodayRecsInFeed>
     <unlistedGroupsEnabled>false</unlistedGroupsEnabled>
 </ChatterSettings>

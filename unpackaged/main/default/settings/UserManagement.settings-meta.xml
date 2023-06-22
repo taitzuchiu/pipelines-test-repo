@@ -9,6 +9,6 @@
     <enableProfileFiltering>false</enableProfileFiltering>
     <enableScrambleUserData>false</enableScrambleUserData>
     <enableUserSelfDeactivate>false</enableUserSelfDeactivate>
-    <psaExpirationUIEnabled>false</psaExpirationUIEnabled>
+    <psaExpirationUIEnabled>true</psaExpirationUIEnabled>
     <restrictedProfileCloning>false</restrictedProfileCloning>
 </UserManagementSettings>
