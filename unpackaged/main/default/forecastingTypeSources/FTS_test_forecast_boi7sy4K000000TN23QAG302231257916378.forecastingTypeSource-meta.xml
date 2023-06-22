@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingTypeSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <forecastingSourceDefinition>FSD_OpportunityLineItem122278588545943</forecastingSourceDefinition>
+    <forecastingType>test_forecast_boi</forecastingType>
+    <isProtected>false</isProtected>
+    <masterLabel>FTS_test_forecast_boi7sy4K000000TN23QAG302231257916378</masterLabel>
+    <sourceGroup>1</sourceGroup>
+</ForecastingTypeSource>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Supervisor --></label>
+        <name>Supervisor__c</name>
+        <picklistValues>
+            <masterLabel>Alan</masterLabel>
+            <translation><!-- Alan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edsger</masterLabel>
+            <translation><!-- Edsger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grace</masterLabel>
+            <translation><!-- Grace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Katherine</masterLabel>
+            <translation><!-- Katherine --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

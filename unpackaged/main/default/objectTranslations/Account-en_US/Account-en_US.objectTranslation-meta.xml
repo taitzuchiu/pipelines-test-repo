@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Russia</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Reply --></label>
+        <name>AccountReplyAction</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Account --></label>
+        <name>Whah</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>help</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Account --></label>
+        <name>plsupdate</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- AccountRecordType --></label>
+        <name>AccountRecordType</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- hgafgsag --></description>
+        <label><!-- IDKWhatImDoing --></label>
+        <name>IDKWhatImDoing</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Final_Approval_Action_Test</fullName>
+        <description>Final Approval Action Test</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/MarketingProductInquiryResponse</template>
+    </alerts>
+    <alerts>
+        <fullName>Final_Rejection_Action_Test</fullName>
+        <description>Final Rejection Action Test</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Initial_Submission_Action_Test</fullName>
+        <description>A test!!!!</description>
+        <field>ImageClassObjectType</field>
+        <literalValue>TRAINING</literalValue>
+        <name>Initial Submission Action Test</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>Recall_Actions_Test</fullName>
+        <apiVersion>49.0</apiVersion>
+        <description>beep boop</description>
+        <endpointUrl>https://thisisnotavalidurlihope</endpointUrl>
+        <fields>Id</fields>
+        <fields>Title</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>sam-dev@gearset.com</integrationUser>
+        <name>Recall Actions Test</name>
+        <protected>true</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+</Workflow>

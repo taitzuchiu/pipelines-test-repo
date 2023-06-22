@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- AnotherTestCustomApp --></label>
+        <name>AnotherTestCustomApp</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- BongoCat --></label>
+        <name>BongoCat</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Help --></label>
+        <name>Help</name>
+    </customApplications>
+    <customTabs>
+        <label><!-- NewAccountLightningPage --></label>
+        <name>NewAccountLightningPage</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- NewLightningBoltPage --></label>
+        <name>NewLightningBoltPage</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows />
+        <fullName>AnotherFlowWithTests</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Barry</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>BeepBoopFlow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>FlowTest</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Screen_Section2</name>
+                </fields>
+                <fields>
+                    <name>Screen_Section2_Column1</name>
+                </fields>
+                <fields>
+                    <name>SectionInFlow</name>
+                </fields>
+                <fields>
+                    <name>SectionInFlow_Column1</name>
+                </fields>
+                <fields>
+                    <name>TextInsideEmptySection</name>
+                </fields>
+                <name>Screen</name>
+            </screens>
+        </flows>
+        <fullName>MoreScreenFlowTesting</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>InASectionWithoutHeader</name>
+                </fields>
+                <fields>
+                    <name>MyScreen_Section2</name>
+                </fields>
+                <fields>
+                    <name>MyScreen_Section2_Column1</name>
+                </fields>
+                <fields>
+                    <name>SectionWithHeaderCalledFred</name>
+                </fields>
+                <fields>
+                    <name>SectionWithHeaderCalledFred_Column1</name>
+                </fields>
+                <fields>
+                    <name>TextComponentInsideSectionWithHeader</name>
+                </fields>
+                <name>MyScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>AnotherSectionWithHeader</name>
+                </fields>
+                <fields>
+                    <name>AnotherSectionWithHeader_Column1</name>
+                </fields>
+                <fields>
+                    <name>DisplayThing</name>
+                </fields>
+                <name>MyScreen2</name>
+            </screens>
+        </flows>
+        <fullName>MyScreenFlow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>RecordTriggeredFlow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>RichTextLWC</name>
+                </fields>
+                <name>ScreenWithLWC</name>
+            </screens>
+        </flows>
+        <fullName>ScreenFlowWithLWC</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Test</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>SectionWithHeader</name>
+                </fields>
+                <fields>
+                    <name>my_screen_Section2</name>
+                </fields>
+                <name>my_screen</name>
+            </screens>
+            <stages>
+                <name>dsf</name>
+            </stages>
+        </flows>
+        <fullName>TestScreenFlow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>flowApptType</name>
+                </fields>
+                <name>AppointmentTypeScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>flowTriage</name>
+                </fields>
+                <name>AttendeesScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>resource_list</name>
+                </fields>
+                <name>CandidateScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>flowResourceTimeSlot</name>
+                </fields>
+                <name>Candidate_Composite_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>flowConfirm</name>
+                </fields>
+                <name>ConfirmationScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>flowLocation</name>
+                </fields>
+                <name>LocationScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>flowReview</name>
+                </fields>
+                <name>ReviewScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>appointment_time</name>
+                </fields>
+                <name>TimeSlotScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>flowWorkType</name>
+                </fields>
+                <name>TopicScreen</name>
+            </screens>
+            <stages>
+                <name>AppointmentTypeStage</name>
+            </stages>
+            <stages>
+                <name>AttendeesStage</name>
+            </stages>
+            <stages>
+                <name>CandidateStage</name>
+            </stages>
+            <stages>
+                <name>CompositeStage</name>
+            </stages>
+            <stages>
+                <name>ConfirmationStage</name>
+            </stages>
+            <stages>
+                <name>LocationStage</name>
+            </stages>
+            <stages>
+                <name>ReviewStage</name>
+            </stages>
+            <stages>
+                <name>TimeSlotStage</name>
+            </stages>
+            <stages>
+                <name>TopicStage</name>
+            </stages>
+        </flows>
+        <fullName>Test_Flow_Action</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Valerie</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>
